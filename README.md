@@ -22,7 +22,7 @@ Once you have `git clone` the repo, run the following sequences:
 cd PyVim
 cp pyvim ~/.local/bin/pyvim
 cd ~/.local/bin/pyvim
-sudo chmod +y pyvim
+sudo chmod +x pyvim
 ```
 
 2. Let's add a startup script for I-Python loaded by Jupyter-QtConsole (*Any code in this script will be run at every lunch of the console*)
