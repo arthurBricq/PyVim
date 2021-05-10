@@ -1,0 +1,22 @@
+#/usr/bin/bash
+
+# create the file only if it doesn't exist
+if [ ! -f $1 ]; then 
+    # 1. create a new file 
+    touch $1
+
+    # 2. add the initial lines
+    echo "#%% Generic PyVim Header" >> $1
+    echo "import numpy as np" >> $1
+    echo "import matplotlib.pyplot as plt" >> $1
+    echo " " >> $1
+    echo "#%% " >> $1
+fi
+
+# open properly VIM or qtconsole
+
+if pgrep "jupyter-qt"; then 
+    vim $1
+else
+    jupyter qtconsole & vim $1
+fi
