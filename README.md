@@ -25,6 +25,7 @@ sudo chmod +y pyvim
 ```
 
 2. Let's add a startup script for I-Python loaded by Jupyter-QtConsole (*Any code in this script will be run at every lunch of the console*)
+
 `cp 00-first.py ~/.python/profile_default/startup/00-first.py`
 
 To try if this worked, open a console and enter 'np'. If it worked, you will see something like '<numpy ...>'
