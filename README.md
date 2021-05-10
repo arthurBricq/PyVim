@@ -18,9 +18,11 @@ The **pyvim** command will simply
 Once you have `git clone` the repo, run the following sequences: 
 
 1. Let's add pyvim as executable
-`cp pyvim ~/.local/bin/pyvim`
-`cd ~/.local/bin/pyvim`
-`sudo chmod +y pyvim`
+```
+cp pyvim ~/.local/bin/pyvim
+cd ~/.local/bin/pyvim
+sudo chmod +y pyvim
+```
 
 2. Let's add a startup script for I-Python loaded by Jupyter-QtConsole (*Any code in this script will be run at every lunch of the console*)
 `cp 00-first.py ~/.python/profile_default/startup/00-first.py`
