@@ -3,9 +3,9 @@
 > Arthur Bricq
 
 This repo contains a script to easily work with Vim in Python. The set up requires to have
-- Vundle installed
-- Jupyter-Vim installed with Vundle
-- Jupyter-qtconsole installed.
+- Vundle installed: https://github.com/VundleVim/Vundle.vim
+- Jupyter-Vim installed with Vundle: https://github.com/jupyter-vim/jupyter-vim
+- Jupyter-qtconsole installed, with a working i-Python setup. 
 
 The behavior is very simple, and it is just made to have a nicer setup than what is provided by the default installation (so, this is JUST setup steps !)
 
