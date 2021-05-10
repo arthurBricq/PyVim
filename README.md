@@ -31,7 +31,7 @@ sudo chmod +y pyvim
 cp 00-first.py ~/.python/profile_default/startup/00-first.py
 ```
 
-To try if this worked, open a console and enter 'np'. If it worked, you will see something like '<numpy ...>'
+To try if this worked, open a console (this can be done with the command `jupyter-qtconsole` or simply with `pyvim` and enter 'np'. If it worked, you will see something like '<numpy ...>'
 
 3. And let's change the keybinds of jupyter-vim, so add the following lines at the end of the '~/.vimrc' script: 
 
