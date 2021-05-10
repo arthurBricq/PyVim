@@ -19,6 +19,7 @@ Once you have `git clone` the repo, run the following sequences:
 
 1. Let's add pyvim as executable
 ```
+cd PyVim
 cp pyvim ~/.local/bin/pyvim
 cd ~/.local/bin/pyvim
 sudo chmod +y pyvim
